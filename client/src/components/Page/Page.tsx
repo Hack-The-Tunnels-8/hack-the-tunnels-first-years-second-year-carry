@@ -8,9 +8,6 @@ interface Props {
 function Page({ children }: Props) {
   return (
     <>
-
-      
-
       <Navbar />
       <div className="page">{children}</div>
       <Footer />
