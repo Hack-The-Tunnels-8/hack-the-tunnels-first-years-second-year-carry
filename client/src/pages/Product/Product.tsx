@@ -39,6 +39,7 @@ function Product() {
             </Link>
           </>
         )}
+
       </div>
     </Page>
   );
