@@ -29,6 +29,8 @@ function Product() {
         {message && <p>{message}</p>}
         {product && (
           <>
+            <img className="product-preview-card__image" src={product.imageUrl} alt={product.title} />
+
             <div className="product-page__product">
               <h3>Title: {product.title}</h3>
               <p>ID: {id}</p>
