@@ -45,4 +45,3 @@ function Home() {
 }
 
 export default Home;
-const [cookies, setCookie, removeCookie] = useCookies(['cookie-name']);
