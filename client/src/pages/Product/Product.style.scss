@@ -1,8 +1,23 @@
-.product-page {
-    display: flex;
-  }
-  
-  .product-preview-card__image .left,
+
+[class*="col-"] {
+    .product-page {
+        display: flex;
+    }
+    .product-preview-card__image .left,
   .product-page__product .right {
-    flex: 1;
+    flex-direction: column;
   }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .product-page {
+        display: flex;
+    }
+    
+    .product-preview-card__image .left,
+    .product-page__product .right {
+        flex: 1;
+    }
+}
+
