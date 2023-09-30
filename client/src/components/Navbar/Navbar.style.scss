@@ -1,7 +1,10 @@
 .navbar {
   display: flex;
-  width: 500px;
+  width: 1500px;
   justify-content: space-between;
 
+  .topnav input[type=text] {
+    margin-right: 16px;
+  }
 
 }

@@ -8,6 +8,7 @@ function Navbar() {
   const navigate = useNavigate();
 
   return (
+    
     <div className="navbar">
       <div className="navbar__logo">
       <button to="/">Store Logo</button>
@@ -21,8 +22,10 @@ function Navbar() {
       <div className="navbar__logo">
       <button to="/">About us</button>
       </div>
-      
 
+      <div className="navigationbar">
+           <input type="text" placeholder="Search..." />
+          </div>
 
       <div className="navbar__account">
         {loggedIn() === false ? (
@@ -33,9 +36,15 @@ function Navbar() {
         ) : (
           <button onClick={() => logout()}>Logout</button>
         )}
+
+          
+          
+
+        
       </div>
     </div>
   );
 }
+
 
 export default Navbar;
