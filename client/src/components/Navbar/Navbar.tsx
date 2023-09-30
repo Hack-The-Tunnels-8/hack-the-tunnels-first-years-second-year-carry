@@ -10,16 +10,16 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar__logo">
-        <Link to="/">Store Logo</Link>
+      <button to="/">Store Logo</button>
       </div>
       <div className="navbar__logo">
-        <Link to="/">News</Link>
+      <button to="/">News</button>
       </div>
       <div className="navbar__logo">
-        <Link to="/">Contact</Link>
+      <button to="/">Contact</button>
       </div>
       <div className="navbar__logo">
-        <Link to="/">About us</Link>
+      <button to="/">About us</button>
       </div>
       
 
