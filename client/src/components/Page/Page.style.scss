@@ -1,4 +1,42 @@
 .page {
   // TODO: update height
   min-height: 100vh;
+
+
+  text-indent: 40px;
+
+  div {
+    text-indent: 50px;
+  }
+
+  p {
+    text-indent: 10%;
+  }
+
+  body {
+    color: blue;
+  }
+
+  .h {
+    font-family: "Lucida Handwriting", Times, serif;
+  }
+  
+  
+h1 {
+  color: yellow;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 25px;
+}
+
+
 }
