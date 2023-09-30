@@ -42,10 +42,10 @@ const router = createBrowserRouter([
   {
     path: "/admin/create-product",
     element: <CreateProduct />,
-  },
+  },  
   {
     path: "*",
-    element: <div>404</div>,
+    element: <div><h2>404: not found</h2> <body><img src="404.gif"></img></body> </div>,
   },
 ]);
 
@@ -58,6 +58,10 @@ export function Root() {
     </AccountProvider>
   );
 }
+
+
+
+
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
