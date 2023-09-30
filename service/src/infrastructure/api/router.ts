@@ -5,7 +5,7 @@ const router = express.Router();
 
 const getAPIRoot = async (_: Request, response: Response) => {
   response.json({
-    message: "Hellow world",
+    message: "Hello world",
   });
 };
 
