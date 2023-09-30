@@ -2,14 +2,32 @@
   &__title {
     color: red;
   }
-
+  
   &__products {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-wrap: nowrap; /* Default value */
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+
+    /* Global values */
+    flex-wrap: inherit;
+    flex-wrap: initial;
+    flex-wrap: revert;
+    flex-wrap: revert-layer;
+    flex-wrap: unset;
+    
+    
 
     a {
       text-decoration: none;
       color: inherit;
+      
     }
+    
+    
+    
   }
+
+  
 }
