@@ -47,6 +47,7 @@ function Checkout() {
             <h2>You are about to make an order with the following product:</h2>
             <div className="checkout-page__product">
               <h3>Title: {product.title}</h3>
+              <body><img className="product-preview-card__image" src={product.imageUrl}/></body>
             </div>
             <button onClick={() => createOrder()}>
               Create Order (with customer set in code)
