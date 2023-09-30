@@ -10,11 +10,14 @@ function Login() {
   const navigate = useNavigate();
 
   const attemptLogin = async () => {
-    let email = document.getElementById("email").textContent;
-    let password = document.getElementById("password").textContent;
+    //admin@email.com
+    //password
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
     try {
       const message = await login(email, password);
       setMessage(message);
+      
     } catch (error) {
       console.log(error);
     }
