@@ -22,10 +22,6 @@ function Login() {
     if (loggedIn() === true) {
       navigate("/");
       //
-      //
-      //
-      //
-      //
     }
   }, [loggedIn, navigate]);
 
