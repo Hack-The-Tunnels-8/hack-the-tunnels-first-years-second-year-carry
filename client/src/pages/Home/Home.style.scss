@@ -5,7 +5,7 @@
   
   &__products {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     flex-wrap: nowrap; /* Default value */
     flex-wrap: wrap;
     flex-wrap: wrap-reverse;
@@ -24,10 +24,7 @@
       color: inherit;
       
     }
-    .content {
-      display: flex;
-      flex-wrap: wrap;
-    }
+    
     
     
   }
