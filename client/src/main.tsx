@@ -59,6 +59,10 @@ export function Root() {
   );
 }
 
+
+
+
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <CookiesProvider>
