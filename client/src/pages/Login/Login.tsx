@@ -10,8 +10,10 @@ function Login() {
   const navigate = useNavigate();
 
   const attemptLogin = async () => {
+    let email = document.getElementById("email").textContent;
+    let password = document.getElementById("password").textContent;
     try {
-      const message = await login("admin@email.com", "password");
+      const message = await login(email, password);
       setMessage(message);
     } catch (error) {
       console.log(error);
@@ -21,7 +23,6 @@ function Login() {
   useEffect(() => {
     if (loggedIn() === true) {
       navigate("/");
-      //
     }
   }, [loggedIn, navigate]);
 
@@ -29,8 +30,10 @@ function Login() {
     <Page>
       <div className="login-page">
         <h1>Login</h1>
-        <button onClick={() => attemptLogin()}>
-          Login (as user set in code)
+        <p>Email:</p> <input id="email" type="text"></input><br></br>
+        <p>Password: </p><input id="password" type="password"></input><br></br>
+        <button className="button" onClick={() => attemptLogin()}>
+          Log in 
         </button>
         {message && <p>{message}</p>}
       </div>
@@ -39,3 +42,4 @@ function Login() {
 }
 
 export default Login;
+
