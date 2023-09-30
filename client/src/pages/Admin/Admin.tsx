@@ -8,6 +8,7 @@ function Admin() {
 
   return (
     <Page>
+      
       <div className="admin-page">
         <h1>Admin</h1>
         {loggedIn() === false ? (
