@@ -1,14 +1,15 @@
 .product-preview-card {
   &__title {
     font-style: bold;
-    color: green;
+    color: black;
   }
 
   &__description {
-    color: blue;
+    font-size: small;
+    color: orange;
   }
 
   &__image {
-    width: 10rem;
+    width: 7rem;
   }
 }
