@@ -21,6 +21,11 @@ function Login() {
   useEffect(() => {
     if (loggedIn() === true) {
       navigate("/");
+      //
+      //
+      //
+      //
+      //
     }
   }, [loggedIn, navigate]);
 
