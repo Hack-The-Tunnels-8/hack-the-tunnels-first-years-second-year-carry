@@ -1,13 +1,4 @@
-@media screen and (max-width: 600px) {
-    .product-page {
-        display: flex;
-    }
-    .product-preview-card__image .left,
-  .product-page__product .right {
-    flex-direction: column;
-  }
 
-}
 
 @media screen and (max-width: 1366px){
     .product-page {
@@ -18,4 +9,15 @@
     .product-page__product .right {
         flex: 1;
     }
+}
+
+@media screen and (max-width: 600px) {
+    .product-page {
+        display: flex;
+    }
+    .product-preview-card__image .left,
+  .product-page__product .right {
+    flex-direction: column;
+  }
+
 }
