@@ -12,6 +12,18 @@ function Navbar() {
       <div className="navbar__logo">
         <Link to="/">Store Logo</Link>
       </div>
+      <div className="navbar__logo">
+        <Link to="/">News</Link>
+      </div>
+      <div className="navbar__logo">
+        <Link to="/">Contact</Link>
+      </div>
+      <div className="navbar__logo">
+        <Link to="/">About us</Link>
+      </div>
+      
+
+
       <div className="navbar__account">
         {loggedIn() === false ? (
           <>
